@@ -48,6 +48,8 @@ $on-laptop:        800px;
 
 // diorama
 
+$drawer-width: 220px;
+
 $header-color: #455A64;
 $header-color-border: #233640;
 $footer-color: #1a2935;
@@ -103,26 +105,19 @@ a {
 
 .drawer {
   display: table-cell;
-  width: 200px;
+  width: $drawer-width;
   float: left;
   padding-top: 20px;
-  margin-right: 32px;
-
   @include media-query($on-palm) {
     display: none;
   }
 }
 
 .page-content {
-  display: table-cell;
+  text-align: justify;
+  margin-left: $drawer-width;
   background-color: $page-color;
-  padding: 30px 0 0 0;
-}
-
-.content {
-  max-width: $content-width;
-}
-
-.post-content {
-  max-width: $content-width;
+  @include media-query($on-palm) {
+    margin-left: 0;
+  }
 }
