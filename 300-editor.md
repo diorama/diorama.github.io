@@ -40,7 +40,8 @@ ideas.
 - Model creation from Variational Implicit Surfaces (VIS);
 - Delete gesture;
 - Model Subtraction, Union and Intersection (Boolean operations);
-- Multi-touch support.
+- Multi-touch support;
+- Real-time collaboration.
 
 [editor-overview]: {{site.baseurl}}/images/editor/editor-overview.png "Diorama Editor overview"
 [editor-suggestions]: {{site.baseurl}}/images/editor/editor-suggestions.png "Suggestion list"
