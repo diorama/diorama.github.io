@@ -4,13 +4,12 @@ title: 3D Retrieval
 permalink: /retrieval/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tincidunt orci quis feugiat. 
-Morbi lacus magna, molestie sed diam eget, rutrum rhoncus massa. 
-Quisque tempor leo sed elit bibendum ornare. 
-Vestibulum at ultrices lectus. In rhoncus fermentum commodo. 
-Phasellus feugiat odio sodales, pulvinar risus vel, dictum eros. 
-Quisque tristique cursus sem, sed luctus est. Pellentesque sem nisi, maximus quis semper id, viverra in nulla. 
-Curabitur mattis orci at feugiat viverra. Nunc a lectus blandit, cursus dui non, dictum turpis. 
-Nullam metus tortor, congue ac lectus ut, tincidunt pretium libero. 
-Nulla pretium est vel magna fringilla, eu sollicitudin nunc pharetra. 
-Donec euismod malesuada neque, a eleifend dolor accumsan id.
+3D Object Retrieval allows the search for a set of similar 3D models, having a single model as an example.
+This utility is particularly powerful and useful when dealing with a large set of models (as in the Diorama
+Marketplace).
+Additionally, in a 3D modelling context, 3D Object Retrieval allows users to specify shapes roughly, having the ability
+to replace these 3D sketches with pre-existing models later.
+
+![][retrieval-similar]
+
+[retrieval-similar]: {{site.baseurl}}/images/retrieval/retrieval-similar.png "Retrieval of similar 3D objects"
