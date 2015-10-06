@@ -4,7 +4,7 @@ email: contact@diorama.io
 description: > # this means to ignore newlines until "baseurl:"
   Diorama description
 
-baseurl: "/diorama/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.diorama.io/" # the base hostname & protocol for your site
 twitter_username: diorama
 github_username:  diorama
