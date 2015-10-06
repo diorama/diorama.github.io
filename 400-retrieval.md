@@ -12,4 +12,26 @@ to replace these 3D sketches with pre-existing models later.
 
 ![][retrieval-similar]
 
+In particular for Diorama, the *EnContRA* meta-framework is used for 3D Object Retrieval. With its modular 
+architecture, this framework allows the fast prototyping of different content retrieval approaches, descriptors and 
+algorithms. The *EnContRA* framework includes modules for:
+
+* Descriptors:
+   * Image;
+   * Vector drawings;
+   * Graph;
+   * Music;
+   * 3D.
+* Indexes;
+* Storage;
+* Conversion helpers;
+* Metadata extraction;
+* Polygon detection and vectorization services;
+* REST API.
+
+More information about the framework is provided on the [*EnContRA* Springer] publication and on the 
+[*EnContRA* GitHub] page.
+
 [retrieval-similar]: {{site.baseurl}}/images/retrieval/retrieval-similar.png "Retrieval of similar 3D objects"
+[*EnContRA* GitHub]: http://encontra.github.io/
+[*EnContRA* Springer]: http://www.di.fc.ul.pt/~mjf/publications/2014-2010/pdf/mta13.pdf
