@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact
-permalink: /contact/
+title: 3D Retrieval
+permalink: /retrieval/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tincidunt orci quis feugiat. 

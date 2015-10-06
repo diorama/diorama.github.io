@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact
-permalink: /contact/
+title: DAM/Marketplace
+permalink: /marketplace/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim tincidunt orci quis feugiat. 
