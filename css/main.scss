@@ -1,0 +1,124 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color: #fafdff;
+$background-color: #37474F;
+$brand-color:      #FFFFFF;
+
+$grey-color:       #efefef;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+
+// diorama
+
+$header-color: #455A64;
+$header-color-border: #233640;
+$footer-color: #1a2935;
+$title-color: #CFD8DC;
+$page-color: #263238;
+
+a {
+  text-decoration: none !important;
+}
+
+.site-header {
+  background-color: $header-color;
+  padding: 4px;
+  border: 0;
+  border-bottom: 1px solid $header-color-border !important;
+}
+
+.site-footer {
+  background-color: $footer-color;
+  border: 0;
+  clear: both;
+}
+
+.site-logo {
+  width: 40px;
+  height: 40px;
+  margin: 0 6px 2px 0;
+}
+
+.site-title {
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: $title-color !important;
+  margin-left: 12px;
+}
+
+.site-nav {
+  border: 0 !important;
+  display: none;
+  @include media-query($on-palm) {
+    display: block;
+  }
+}
+
+.trigger {
+  margin: 0 24px;
+}
+
+.footer-entity {
+  height: 60px;
+}
+
+.drawer {
+  display: table-cell;
+  width: 200px;
+  float: left;
+  padding-top: 20px;
+  margin-right: 32px;
+
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
+
+.page-content {
+  display: table-cell;
+  background-color: $page-color;
+  padding: 30px 0 0 0;
+}
+
+.content {
+  max-width: $content-width;
+}
