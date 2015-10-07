@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 3D Retrieval
+title: Retrieval
 permalink: /retrieval/
 ---
 

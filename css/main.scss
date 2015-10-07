@@ -94,6 +94,7 @@ a {
   @include media-query($on-palm) {
     display: block;
   }
+  z-index: 9000;
 }
 
 .trigger {
@@ -152,6 +153,12 @@ a {
   margin-top: 30px;
   text-align: center;
 
+  .title {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
   h2 {
     margin: 45px 0 0 0;
   }
@@ -160,6 +167,19 @@ a {
     opacity: 0.5;
     margin: 0;
   }
+
+  a {
+    font-size: 13px;
+    font-style: italic;
+    color: #00bcbc;
+  }
+}
+
+.form-iframe {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin-top: 20px;
 }
 
 

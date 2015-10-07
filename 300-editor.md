@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Destructive
-permalink: /destructive/
+title: Modeller
+permalink: /modeller/
 ---
 
 Taking advantage of the embedded *Destructive* 3D Editor tool, users can choose between quickly modify an existing 
