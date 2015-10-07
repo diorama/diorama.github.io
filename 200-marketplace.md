@@ -31,4 +31,3 @@ control or split mode with coordinated manipulation.
 [model-viewer]: {{site.baseurl}}/images/marketplace/model-viewer.png "Model Viewer"
 [model-details]: {{site.baseurl}}/images/marketplace/model-details.png "Model details"
 [model-history]: {{site.baseurl}}/images/marketplace/model-history.png "Model History"
-[nuxeo]: {{site.baseurl}}/images/marketplace/nuxeo.png "Nuxeo ECM"
