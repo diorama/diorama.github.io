@@ -1,5 +1,5 @@
 ---
-layout: form
+layout: plain
 permalink: /confirmation/
 ---
 

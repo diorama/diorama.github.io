@@ -1,5 +1,5 @@
 ---
-layout: form
+layout: default
 permalink: /confirmed/
 ---
 
