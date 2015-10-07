@@ -4,20 +4,28 @@ title: Marketplace
 permalink: /marketplace/
 ---
 
+<!-- // oferece um DAM (service), que tem opcoes e que permite, etc, etc.
+Diorama offers a Digital Asset Management (DAM) service for 3D content, with powerful search options, 
+allowing users to filter results based on date, popularity, similarity and types of 3D models.
+-->
 Diorama offers a Digital Asset Management (DAM) for 3D content and providing powerful search options, 
 allowing users to filter results based on date, popularity, similarity and types of 3D models.
 
 ![][collections]
 
+<!-- // afinal quem suporta o que?
+Featuring a powerful and lightweight Web-based 3D model viewer supported by the most common desktop and mobile browsers,
+users are able to interact easily with 3D models in all platforms without the need of third-party software.
+-->
 Featuring a powerful and lightweight Web based 3D model viewer that supports common desktop and mobile browser, allowing
 users to fast interact with 3D models in all platforms without the need of third-party software.
 
 ![][model-viewer]
 
 Supporting most common 3D file formats, users can upload models and associate metadata such as description, tags,
-comments, add makes (images and description of printed 3D model). 
+comments and add makes (images and description of printed 3D model). 
 Models can be downloaded, printed (locally or using an online 3D printing service), shared in social networks, and also
-forked by other users. 
+forked by other users (that can later customize them). 
 
 ![][model-details]
 
