@@ -10,49 +10,6 @@ layout: default
 
   <div class="title">Diorama is a Digital Asset Management (DAM) service for 3D content, that let you organize, manage, edit and print your 3D assets easily.</div>
 
-  <!-- simple form
-  <iframe class="form-iframe" frameborder="0" src="http://eepurl.com/bBNuiL"></iframe>
-  -->
-
-  <!-- custom form -->
-  <iframe class="form-iframe" frameborder="0" srcdoc='
-  <style>
-    body {
-      text-align: center;
-    }
-    .email {
-      width: 300px;
-      font-size: 22px;
-      margin-top: 100px;
-      margin-bottom: 30px;
-      padding: 10px;
-      border-radius: 8px;
-      border: 2px solid white;
-      text-align: center;
-      background-color: transparent;
-      color: white;
-    }
-    .button {
-      width: 150px;
-      font-size: 24px;
-      font-weight: bold;
-      border-radius: 8px;
-      padding: 12px;
-      background: #D81B60;
-      color: #ffffff;
-      border: 0px solid;
-    }
-  </style>
-  <div id="mc_embed_signup">
-    <form action="//inevo.us11.list-manage.com/subscribe/post?u=811793a122e76d12edfb56e94&amp;id=861b725ea1"
-          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
-      <input type="hidden" value="" name="b_811793a122e76d12edfb56e94_861b725ea1" tabindex="-1">
-      <input class="email" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required><br>
-      <input class="button" type="submit" value="JOIN" name="subscribe" id="mc-embedded-subscribe" class="button">
-    </form>
-  </div>
-  '></iframe>
-
   <h2>Digital Asset Management for 3D</h2>
   <p>Store all your 3D content in the cloud, organize and manage your assets anytime, anywhere.</p>
   <a href="/dam/">more details...</a>
@@ -75,3 +32,10 @@ layout: default
   <a href="/dam/">more details...</a>
 
 </div>
+
+<!-- custom form -->
+<iframe class="form-iframe" frameborder="0" srcdoc='{% include form.html %}'></iframe>
+
+<!-- simple form
+  <iframe class="form-iframe" frameborder="0" src="http://eepurl.com/bBNuiL"></iframe>
+-->
