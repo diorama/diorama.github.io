@@ -4,6 +4,10 @@ title: Modeller
 permalink: /modeller/
 ---
 
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/cT32WaK4bXo?list=PLb2YB0gLBV5FNBh_rTVBSZqOQ0hup5MSy" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Taking advantage of the embedded *Destructive* 3D Editor tool, users can choose between quickly modify an existing 
 model or create a new one from scratch.
 The *Destructive* Editor provides a simplistic interface with clearly distinct functionalities for both model and view 
