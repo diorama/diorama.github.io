@@ -2,7 +2,7 @@
 title: DIORAMA
 email: contact@diorama.io
 description: > # this means to ignore newlines until "baseurl:"
-  Diorama description
+  Diorama is a Collaborative Digital Asset Management for 3D content, that lets you organize, manage, edit and print your 3D assets easily.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.diorama.io/" # the base hostname & protocol for your site
